@@ -1,0 +1,23 @@
+(await ethers.provider.getAddress(accounts[0]))
+(await ethers.provider.getAddress(accounts[0])).toString()
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.getSigners()
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.getSigners()
+accounts = await ethers.provider.getSigners()
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.provider.listAccounts()
+exit()
+exit
+cls
+const accounts = await ethers.provider.getAccounts();
+console.log(accounts);
+const accounts = await ethers.provider.listAccounts();
+(await box.retrieve()).toString()
+await box.store(100)
+(await box.retrieve()).toString()
+await box.retrieve()
+await box.store(42)
+console.log(box)
+const box = await Box.attach('0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0');
+const Box = await ethers.getContractFactory('Box');
